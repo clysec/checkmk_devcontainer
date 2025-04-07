@@ -1,5 +1,5 @@
 ARG VARIANT
-FROM checkmk/check-mk-free:${VARIANT}
+FROM checkmk/check-mk-cloud:${VARIANT}
 
 RUN /docker-entrypoint.sh /bin/true
 
